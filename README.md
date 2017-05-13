@@ -4,9 +4,12 @@ The RNN Architecture
 
 The architecture used is a BI-LSTM network with CRF (Conditional Random Field) and a Viterbi decoding to find the best sequence. The architecture is composed of:
 
-Word embeddings (we experimented with different embedding dimensions) with dropout
-Forward and Backward LSTM layer (experimented with different hidden sizes) with dropout
-CRF Layer
+- Word embeddings (we experimented with different embedding dimensions) with dropout Forward and Backward LSTM layer (experimented with different hidden sizes) with dropout
+
+- Forward and Backward LSTM layer (experimented with different hidden sizes) with dropout
+
+- CRF Layer
+
 
 ![alt text](https://guillaumegenthial.github.io/assets/bi-lstm.png) 
 
